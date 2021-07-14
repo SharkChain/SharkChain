@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @SharkChain
-- 👀 I’m interested in ...BlockChain
-- 🌱 I’m currently learning ...Python
-- 💞️ I’m looking to collaborate on ...Blockchain
+- 👋 Hi, I’m @SharkToshi (SharkChain)
+- 👀 TomoChain ...BlockChain
+- 🌱 We are currently Airdropping the SharkToshi Tokens
+- 💞️ We are always open for collabration the better world ...Blockchain
 - 📫 How to reach me ...sharkschain@gmail.com
 
 <!---
