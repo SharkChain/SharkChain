@@ -5,6 +5,6 @@ A new meme token SharkToshi “Satoshi’s Version of SharkTank” A very simple
  
  We are always open for collabration the better world ...Blockchain
  
- How to reach us ... sharkschain@gmail.com
+ How to reach us ... sharkschainorg@gmail.com
 
 
