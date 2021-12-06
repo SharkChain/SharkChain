@@ -1,0 +1,375 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="SharkTank, Shiba, Bitcoin, Etherium TomoChain, LuaSwap, CMC, ">
+        <meta name="author" content="SharkTank, meme coin, Doge, Solana ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:site-name" content="" />
+        <meta property="og:description" content="..." />
+
+        <link rel="apple-touch-icon" sizes="57x57" href="fevicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="fevicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="fevicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="fevicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="fevicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="fevicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="fevicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="fevicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="fevicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="fevicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="fevicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="fevicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="fevicon/favicon-16x16.png">
+        <link rel="manifest" href="fevicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="fevicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>SharkToshi:A Tribute To Satoshi</title>
+
+        <!-- Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Google font : Roboto -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Slick -->
+        <link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+        <!-- Main style -->
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/module.css">
+        <link rel="stylesheet" href="css/state.css">
+
+        <!-- Smooth show effect -->
+        <script>
+            $(document).ready(function(){
+                const ratio = .1
+                const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: ratio
+                }
+                const handleIntersect = function (entries, observer){
+                entries.forEach(function (entry){
+                    if (entry.intersectionRatio > ratio){
+                    entry.target.classList.add('reveal-visible')
+                    observer.unobserve(entry.target)
+                    }
+                })
+                }
+                const observer = new IntersectionObserver(handleIntersect, options)
+                document.querySelectorAll('[class*="reveal-"]').forEach(function (r) {
+                    observer.observe(r)
+                })
+            });
+        </script>
+    </head>
+
+    <body>
+        <!-- Main Header -->
+        <header class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="#home" class="logo"><span class="color">SharkToshi</span></a>
+                    </div>
+                    <div class="col-6 text-right">
+                        <span id="btnMenu" class="btn btn-secondary">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Menu -->
+        <div class="main-menu">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">SharkToshi</a></li>
+                        <li><a href="#features">Features</a></li>
+                        
+                         
+                        <li><a href="#roadmap">Roadmap</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Main Wrapper -->
+        <div class="main-wrapper">
+
+            <!-- Main Banner -->
+            <section id="home" class="main-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-8 reveal-2">
+                            <h1>Satoshi's Version of SharkTank V 2.0</h1>
+                            <p style="font-size:20px;" align = "justify">SharkToshi Meme Token V 2.0 "Satoshi's Version Of SharkTank" SharkChain, SharkSwap, NFT's, Gaming, MetaVerse Hybrid Blockchain PoH and PoS.</p>
+                            <a class="btn btn-md btn-primary" href="https://github.com/SharkChain/SharkChain/blob/main/SharkToshi%20White%20Paper.pdf">White Paper <i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="col-12 col-md-4 reveal-3">
+                            <img class="img-fluid" src="img/blockchain.png" alt="/">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About section -->
+            <section id="about" class="page-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 reveal-2">
+                            <hr>
+                            <h2 class="page-title">SharkToshi</h2>
+                        </div>
+                        <article class="col-12 col-md-6 reveal-2">
+                            <p align = "justify"><strong>SharkToshi:</strong> As the name sounds Satoshi’s Version of SharkTank “SharkToshi” is a first meme token on TomoChain network to honor Satoshi Nakamoto for incepting the great idea of peer to peer transactions to decentralize the economy. Shark Token is listed on LuaSwap DeX. This token is the first of it’s kind on TomoChain and LuaSwap purely run by its community. We only have one contract address on Tomochain <a href="https://tomoscan.io/token/0x8865280c31B8CBC7b96cE48Ad52C122E6D82806a">0x8865280c31B8CBC7b96cE48Ad52C122E6D82806a</a>. Nowadays it’s easy to create a token on any chain so beware of fake contracts. We do not tax our buyers and sellers only LP fee of 0.4% will be charged for each buy and sell keeping no restriction on any buyer and seller. In future based on the progress of this meme project a blockchain will be build on the technical basis of Solana Hybrid Proof of History (PoH) - a Proof for verifying orders and History between events alongside with consensus algorithm Proof of Stake (PoS).</p>   
+                        </article>
+                        <article class="col-12 col-md-6 reveal-2">
+                            <p align = "justify"><strong>Why TomoChain:</strong> TomoChain is an innovative solution to the scalability problem with the Ethereum blockchain, and other current blockchain platforms. TomoChain relies on a system of 150 Masternodes with Proof of Stake Voting (POSV) consensus that can support near-zero fee, and 2-second transaction confirmation time. Security, stability and chain finality are guaranteed via novel techniques such as double validation, staking via smart-contracts and "true" randomization processes. TomoChain supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers. New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be continuously researched and incorporated into TomoChain's Masternode architecture which will be an ideal scalable smart-contract public blockchain for decentralized apps, token issuances and token integration for small and big businesses.</p>   
+                        </article>
+                        <article class="col-12 reveal-2 mt-4">
+                            <h3>Join us:</h3>
+                            <a target="_blank" href="https://twitter.com/toshisharks"><i class="fab fa-twitter"></i></a>
+                            <!--a target="_blank" href="#"><i class="fab fa-discord"--></i></a>
+                            <a target="_blank" href="https://t.co/48uikasmKf?amp=1"><i class="fab fa-telegram-plane"></i></a>
+                            <!--a target="_blank" href="#"><i class="fab fa-reddit-alien"--></i></a>
+                            <a target="_blank" href="https://github.com/SharkChain"><i class="fab fa-github"></i></a> 
+							<p align = "justify"><strong>Legal Disclaimer:</strong> Nothing on this Website is an offer to sell, or the solicitation of an offer to buy, any tokens. SharkToshi is publishing this Website solely to receive feedback and comments from the public. Nothing in this Website should be treated or read as a guarantee or promise of how SoharkToshi business or the tokens will develop or of the utility or value of the tokens. This Website outlines current plans, which could change at its discretion, and the success of which will depend on many factors outside SharkToshi’s control, including market-based factors and factors within the data and blockchain industries, among others. Any statements about future events are based solely on SharkToshi’s analysis of the issues described on this website. That analysis may prove to be incorrect.</br></br><strong>Note:</strong> SharkToshi is NOT affiliated with any organization, TV Show etc. or Whatsoever.  
+ </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features section -->
+            <section id="features" class="page-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 reveal-2">
+                            <hr>
+                            <h2 class="page-title">Our features</h2>
+                        </div>
+                        <article class="col-12 col-md-6 reveal-2">
+                            <i class="fas fa-network-wired"></i>
+                            <p align = "justify"> A Total of 21 Billions tokens were minted during the contract deployment and 11 Billion Tokens were burned in two phases results in 10 Billion total supply. <a href="https://tomoscan.io/token/0x8865280c31B8CBC7b96cE48Ad52C122E6D82806a">TomoChain Contract</a> The Remaining 9 Billion tokens added to LuaSwap liquidity pool and 1 Billion Tokens are kept for airdrop Via CoinMarketCap.</p>   
+                        </article>
+                        <article class="col-12 col-md-6 reveal-2">
+                            <i class="fas fa-layer-group"></i>
+                            <p align = "justify"> TomoChain is an innovative solution to the scalability problem with the Ethereum blockchain, and other current blockchain platforms. TomoChain relies on a system of 150 Masternodes with Proof of Stake Voting (POSV) consensus that can support near-zero fee, and 2-second transaction confirmation time.</p>   
+                        </article>
+                        <article class="col-12 col-md-6 reveal-2">
+                            <i class="fab fa-connectdevelop"></i>
+                            <p align = "justify">In future based on SharkToshi progress a blockchain will be introduced on the technical basis of Solana Hybrid Proof of History (PoH) - a Proof for verifying orders and History between events alongside with consensus algorithm Proof of Stake (PoS).</p>   
+                        </article>
+                        <article class="col-12 col-md-6 reveal-2">
+                            <i class="fas fa-exchange-alt"></i>
+                            <p align = "justify">Listed on LuaSwap DeX (<a href="https://info.luaswap.org/tomochain/pair/0x65877cdda46e05c8dea8600d57697abdd8daafff">Buy Here)</a>. LuaSwap delivers a community-governed, multichain protocol via the LUA token. The focus is to support smaller pools of emerging tokens instead of fighting for liquidity within the top token pools. LuaSwap is a Multi-Chain liquidity exchange protocol with fee structure 0.4% for each Swap out of which 0.35% is added to liquidity providers.</p>   
+                        </article>
+                    </div>
+                </div>
+            </section>
+			<section id="roadmap" class="page-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 reveal-2">
+                            <p class="page-subtitle">Our future developement</p>
+                            <h2 class="page-title">Roadmap</h2>
+                        </div>
+                        <div class="col-12 col-md-4 reveal-2">
+                            <h3>2021 - Q3 Q4</h3>
+                            <article class="card">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Idea Starded In July 2021.</li>
+                                    <li><i class="fas fa-check"></i> 9 Billion Sharks locked in AMM LuaSwap.</li>
+                                    <li><i class="fas fa-check"></i> 11 Billion Tokens Burned .</li>
+                                    <li><i class="fas fa-check"></i> Airdrop to Tomo, Lua and Zpay Holders.</li>
+                                    <li><i class="fas fa-check"></i> 3000 Holders annd counting.</li>
+                                    <li><i class="fas fa-check"></i> Listed on LuaSwap.</li>
+                                </ul>                        
+                            </article>
+                        </div>
+                        <div class="col-12 col-md-4 reveal-2">
+                            <h3>2022 - Q1 Q2</h3>
+                            <article class="card">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Website Update.</li>
+                                    <li><i class="fas fa-chevron-right"></i> Moving to Other Chains.</li>
+                                    <li><i class="fas fa-chevron-right"></i> Lising of CoinMarketCap.</li>
+                                    <li><i class="fas fa-chevron-right"></i> Listing on CoinGecko.</li>
+                                    <li><i class="fas fa-chevron-right"></i> 10000 Holders.</li>
+                                    <li><i class="fas fa-chevron-right"></i> AirDrop via CMC.</li>
+                                </ul>                       
+                            </article>
+                        </div>
+                        <div class="col-12 col-md-4 reveal-2">
+                            <h3>2022 - Q3 Q4</h3>
+                            <article class="card"> 
+                                <ul>
+                                    <li><i class="fas fa-chevron-right"></i> Marketing on large Scale.</li>
+                                    <li><i class="fas fa-chevron-right"></i> Listing on Centralised Exchanges.</li>
+                                    <li><i class="fas fa-chevron-right"></i> Patnerships.</li>
+                                    <li><i class="fas fa-chevron-right"></i> website Update.</li>
+                                    <li><i class="fas fa-chevron-right"></i> 25000 Shark Holders .</li>
+                                    <li><i class="fas fa-chevron-right"></i> SharkChain Inception.</li>
+                                </ul>                       
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Ressources section -->
+            <section id="ressources" class="page-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 reveal-2">
+                            <p class="page-subtitle">Note: Beware of fake websites and wallets. Never disclose your pass phrases.</p>
+                            <h2 class="page-title">Ressources</h2>
+                        </div>
+                        <article class="col-6 col-md-4 reveal-2">
+                            <h3><i class="fas fa-wallet"></i> Wallet</h3>
+                            <ul>
+                                <li><a href="https://trustwallet.com/">Trust Wallet</a></li>
+                                <li><a href="https://metamask.io/">MetaMask</a></li>
+                                <li><a href="https://wallet.tomochain.com/#/login">Tomo Wallet</a></li>
+                                
+                            </ul>
+                        </article>
+                        <article class="col-6 col-md-4 reveal-2">
+                            <h3><i class="fas fa-exchange-alt"></i> Exchanges</h3>
+                            <ul>
+                                <li><a href="https://info.luaswap.org/tomochain/pair/0x65877cdda46e05c8dea8600d57697abdd8daafff">LuaSwap</a></li>
+                                <li><a href="https://info.luaswap.org/tomochain/pair/0x65877cdda46e05c8dea8600d57697abdd8daafff">Coming Soon</a></li>
+                                <li><a href="https://info.luaswap.org/tomochain/pair/0x65877cdda46e05c8dea8600d57697abdd8daafff">Coming Soon</a></li>
+                                
+                            </ul>
+                        </article>
+                        <article class="col-6 col-md-4 reveal-2">
+                            <h3><i class="fas fa-store"></i> Community</h3>
+                            <ul>
+                                <li><a href="https://twitter.com/toshisharks">Official Twitter </a></li>
+                                <li><a href="https://t.me/sharktoshi">Telegram Channel</a></li>
+                                <li><a href="https://t.me/toshishark">Telegram Group</a></li>
+                                
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+			
+            <footer class="main-footer">
+                <div class="container">
+                    <div class="row">
+                        <article class="col-12 col-md-3">
+                            <h3>Navigation</h3>
+                            <ul>
+                                <li><a href="#about">SharkToshi</a></li>
+                                <li><a href="#features">Features</a></li>
+                                
+                                
+                                <li><a href="#roadmap">Roadmap</a></li>
+                            </ul>
+                        </article>
+                        <article class="col-12 col-md-3">
+                            <h3>Ressources</h3>
+                            <ul>
+                                <li><a href="https://wallet.tomochain.com/#/login">Tomo Wallet</a></li>
+                                
+                                <li><a href="#">CMC Coming Soon</a></li>
+                            </ul>
+                        </article>
+                        <article class="col-12 col-md-3">
+                            <h3>Exchanges</h3>
+                            <ul>
+                                <li><a href="https://info.luaswap.org/tomochain/pair/0x65877cdda46e05c8dea8600d57697abdd8daafff">LuaSwap DeX</a></li>
+                                <li><a href="#">More Coming Soon</a></li>
+                                
+                            </ul>
+                        </article>
+                        <article class="col-12 col-md-3">
+                            <h3>Community</h3>
+                            <ul>
+                                <li><a href="https://twitter.com/toshisharks">News</a></li>
+                                
+                                <li><a href="https://github.com/SharkChain">Contribute</a></li>
+                            </ul>
+                        </article>
+                        <div class="col-12">
+                            <hr>   
+                        </div>
+                        <div class="col-12 col-md-6 social">
+                            <p>
+                                <a target="_blank" href="https://twitter.com/toshisharks"><i class="fab fa-twitter"></i></a>
+                                
+                                <a target="_blank" href="https://t.me/sharktoshi"><i class="fab fa-telegram-plane"></i></a>
+                                <a target="_blank" href="https://t.me/toshishark"><i class="fab fa-telegram-plane"></i></a>
+                                <a target="_blank" href="https://github.com/sharkchain"><i class="fab fa-github"></i></a>                         
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 copyright">
+                            <p>&copy; 2021 SharkToshi <a target="_blank" href="https://twitter.com/lucienshark">Lucien Shark</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- PopperJS & Bootstrap CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Slick -->
+        <script type="text/javascript" src="libs/slick/slick.min.js"></script>
+        <script>
+            $('.partners-slider').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                responsive: [
+                  {
+                    breakpoint: 1024,
+                    settings: {
+                      slidesToShow: 3
+                    }
+                  },
+                  {
+                    breakpoint: 600,
+                    settings: {
+                      slidesToShow: 3
+                    }
+                  },
+                  {
+                    breakpoint: 480,
+                    settings: {
+                      slidesToShow: 2
+                    }
+                  }
+                ]
+            });
+        </script>
+        <!-- -->
+        <script src="js/app.js"></script>
+    </body>
+</html>
